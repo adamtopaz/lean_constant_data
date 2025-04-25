@@ -8,5 +8,6 @@ lean_lib «LeanConstantData» where
   -- add library configuration options here
 
 @[default_target]
-lean_exe «lean_constant_data» where
+lean_exe go where
   root := `Main
+  supportInterpreter := true
